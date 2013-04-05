@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="b4947c31-62b6-4b46-b5b2-dea774f8d3d2" Publisher="CN=test" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>main_page</DisplayName>
+    <PublisherDisplayName>test</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="main_page.App">
+<<<<<<< HEAD
+      <VisualElements DisplayName="Word Blocks" Logo="logo.png" SmallLogo="slogo.png" Description="main_page" ForegroundText="light" BackgroundColor="#009800">
+        <DefaultTile ShowName="logoOnly" WideLogo="llogo.png" />
+        <SplashScreen Image="SplashScreen.png" BackgroundColor="#009800" />
+=======
+      <VisualElements DisplayName="Word Blocks" Logo="logo.png" SmallLogo="slogo.png" Description="main_page" ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="logoOnly" WideLogo="llogo.png" />
+        <SplashScreen Image="SplashScreen.png" BackgroundColor="#50bd3e" />
+>>>>>>> s
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
